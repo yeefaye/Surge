@@ -1,4 +1,4 @@
-#NAME: China  直连
+#NAME: China  直连Surge
 
 DOMAIN-KEYWORD,Authy
 DOMAIN-SUFFIX,Authy.com
@@ -89,6 +89,12 @@ DOMAIN-SUFFIX,souxs.pigqq.com
 DOMAIN-SUFFIX,sma.yueyouxs.com
 DOMAIN-SUFFIX,anduril.xmkanshu.com
 DOMAIN-SUFFIX,andns.co
+DOMAIN-SUFFIX,tongbu.com
+DOMAIN-SUFFIX,ipchaxun.com
+DOMAIN-SUFFIX,globalsign.com
+DOMAIN-SUFFIX,bcevod.com
+DOMAIN-SUFFIX,shakingcloud.com
+DOMAIN-SUFFIX,en888.top
   
 DOMAIN-SUFFIX,ctobsnssdk.com
 DOMAIN-SUFFIX,adukwai.com
