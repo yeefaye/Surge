@@ -1,4 +1,4 @@
-# Proxy 代理列表
+# Proxy for Surge 代理列表
 
 # MyList & Other
 DOMAIN-SUFFIX,1password.com
@@ -43,6 +43,9 @@ DOMAIN-SUFFIX,time.android.com
 DOMAIN-SUFFIX,wasabisys.com
 DOMAIN-SUFFIX,s3.eu-central-2.wasabisys.com
 DOMAIN-SUFFIX,52.mk
+DOMAIN-SUFFIX,speedtest.com
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,onetrust.com
 DOMAIN-SUFFIX,api.nxtlnodes.com
 DOMAIN-SUFFIX,nxtlnodes.com
 DOMAIN-SUFFIX,mxplayer.in
@@ -51,7 +54,10 @@ DOMAIN-SUFFIX,mx.j2inter.com
 DOMAIN-SUFFIX,oneplus.net
 DOMAIN-SUFFIX,mastodon.world
 DOMAIN-KEYWORD,mastodon
+DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,ixpsge.com
+DOMAIN-SUFFIX,bluekai.com
+
 IP-CIDR,149.154.172.0/22,no-resolve
 IP-CIDR,91.108.56.0/23,no-resolve
 IP-CIDR,155.248.192.0/19,no-resolve
