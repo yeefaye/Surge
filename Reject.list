@@ -1,6 +1,6 @@
-#Reject
-# > Google
-safebrowsing.googleapis.com
+# # > Reject  网络收集整理
+# >Google
+DOMAIN,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,ads.google.com
 DOMAIN-SUFFIX,adservice.google.com
 DOMAIN-SUFFIX,afd.l.google.com
@@ -17,10 +17,21 @@ DOMAIN-SUFFIX,mobileads.google.com
 DOMAIN-SUFFIX,pagead-tpc.l.google.com
 DOMAIN-SUFFIX,pagead.google.com
 DOMAIN-SUFFIX,pagead.l.google.com
-
+  
+#>>
+DOMAIN,miav-cse.avlyun.com
+DOMAIN,a0.app.xiaomi.com
+DOMAIN,miui-fxcse.avlyun.com
+DOMAIN,api.installer.xiaomi.com
+IP-CIDR,157.148.0.0/16,no-resolve
 # > Tencent
 DOMAIN,safebrowsing.urlsec.qq.com
- 
+# > 
+DOMAIN,appcenter.ms
+DOMAIN,app-meaturement.com
+DOMAIN,firebase.io
+DOMAIN,crashlytics.com
+DOMAIN,zhanzhang.toutiao.com
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
 DOMAIN-KEYWORD,adsage
@@ -94,6 +105,9 @@ DOMAIN-SUFFIX,adhouyi.com
 DOMAIN-SUFFIX,adinfuse.com
 DOMAIN-SUFFIX,adirects.com
 DOMAIN-SUFFIX,adjust.io
+DOMAIN-SUFFIX,adjust.com
+DOMAIN-SUFFIX,adjust.world
+DOMAIN-SUFFIX,adjust.net
 DOMAIN-SUFFIX,adkmob.com
 DOMAIN-SUFFIX,adlive.cn
 DOMAIN-SUFFIX,adlocus.com
@@ -232,7 +246,7 @@ DOMAIN-SUFFIX,gridsumdissector.com
 DOMAIN-SUFFIX,growingio.com
 DOMAIN-SUFFIX,guohead.com
 DOMAIN-SUFFIX,guomob.com
-DOMAIN-SUFFIX,haogDOMAIN.com
+DOMAIN-SUFFIX,haoghost.com
 DOMAIN-SUFFIX,hivecn.cn
 DOMAIN-SUFFIX,hypers.com
 DOMAIN-SUFFIX,icast.cn
@@ -1162,16 +1176,16 @@ DOMAIN-SUFFIX,logger.qingting.fm
 DOMAIN-SUFFIX,s.qd.qingting.fm
 DOMAIN-SUFFIX,s.qd.qingtingfm.com
 DOMAIN-KEYWORD,omgmtaw
-adsmind.apdcdn.tc.qq.com
-adsmind.gdtimg.com
-adsmind.tc.qq.com
-pgdt.gtimg.cn
-pgdt.gtimg.com
-pgdt.ugdtimg.com
-splashqqlive.gtimg.com
-wa.gtimg.com
-wxsnsdy.wxs.qq.com
-wxsnsdythumb.wxs.qq.com
+DOMAIN,adsmind.apdcdn.tc.qq.com
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,adsmind.tc.qq.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,pgdt.gtimg.com
+DOMAIN,pgdt.ugdtimg.com
+DOMAIN,splashqqlive.gtimg.com
+DOMAIN,wa.gtimg.com
+DOMAIN,wxsnsdy.wxs.qq.com
+DOMAIN,wxsnsdythumb.wxs.qq.com
 DOMAIN-SUFFIX,act.qq.com
 DOMAIN-SUFFIX,ad.qun.qq.com
 DOMAIN-SUFFIX,adsfile.qq.com
@@ -1620,7 +1634,7 @@ DOMAIN-SUFFIX,exp.17wo.cn
 DOMAIN-SUFFIX,game.51yund.com
 DOMAIN-SUFFIX,ganjituiguang.ganji.com
 DOMAIN-SUFFIX,grand.ele.me
-DOMAIN-SUFFIX,DOMAINing.miarroba.info
+DOMAIN-SUFFIX,hosting.miarroba.info
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,image.gentags.com
 DOMAIN-SUFFIX,its-dori.tumblr.com
@@ -1777,7 +1791,7 @@ IP-CIDR,39.107.15.115/32,no-resolve
 IP-CIDR,47.89.59.182/32,no-resolve
 IP-CIDR,103.49.209.27/32,no-resolve
 IP-CIDR,123.56.152.96/32,no-resolve
-# > ChinaTelecom
+  # > ChinaTelecom
 IP-CIDR,61.160.200.223/32,no-resolve
 IP-CIDR,61.160.200.242/32,no-resolve
 IP-CIDR,61.160.200.252/32,no-resolve
@@ -1796,17 +1810,17 @@ IP-CIDR,222.186.61.91/32,no-resolve
 IP-CIDR,222.186.61.95/32,no-resolve
 IP-CIDR,222.186.61.96/32,no-resolve
 IP-CIDR,222.186.61.97/32,no-resolve
-# > ChinaUnicom
+  # > ChinaUnicom
 IP-CIDR,106.75.231.48/32,no-resolve
 IP-CIDR,119.4.249.166/32,no-resolve
 IP-CIDR,220.196.52.141/32,no-resolve
 IP-CIDR,221.6.4.148/32,no-resolve
-# > ChinaMobile
+  # > ChinaMobile
 IP-CIDR,114.247.28.96/32,no-resolve
 IP-CIDR,120.240.95.37/32,no-resolve
 IP-CIDR,221.179.131.72/32,no-resolve
 IP-CIDR,221.179.140.145/32,no-resolve
-# > Dr.Peng
+  # > Dr.Peng
 IP-CIDR,115.182.16.79/32,no-resolve
 IP-CIDR,118.144.88.126/32,no-resolve
 IP-CIDR,118.144.88.215/32,no-resolve
@@ -1819,22 +1833,21 @@ IP-CIDR,211.161.101.106/32,no-resolve
 IP-CIDR,211.161.101.110/32,no-resolve
 IP-CIDR,220.115.251.25/32,no-resolve
 IP-CIDR,222.73.156.235/32,no-resolve
-# Malware
-# > Huawei AspiegelBot
+  # Malware
+  # > Huawei AspiegelBot
 IP-CIDR,114.119.160.0/21,no-resolve
-# > KuaiZip
-# https://zhuanlan.zhihu.com/p/39534279
+  # > KuaiZip
+  # https://zhuanlan.zhihu.com/p/39534279
 DOMAIN-SUFFIX,kuaizip.com
-# > MacKeeper
-# https://www.lizhi.io/blog/40002904
+  # > MacKeeper
+  # https://www.lizhi.io/blog/40002904
 DOMAIN-SUFFIX,mackeeper.com
 DOMAIN-SUFFIX,zryydi.com
-# > Adobe Flash China Special Edition
-# https://www.zhihu.com/question/281163698/answer/441388130
+  # > Adobe Flash China Special Edition
+  # https://www.zhihu.com/question/281163698/answer/441388130
 DOMAIN-SUFFIX,flash.cn
-geo2.adobe.com
-# > C&J Marketing
-# https://www.zhihu.com/question/46746200
+DOMAIN,geo2.adobe.com
+  # > C&J Marketing
 DOMAIN-SUFFIX,4009997658.com
 DOMAIN-SUFFIX,abbyychina.com
 DOMAIN-SUFFIX,alienskins.cn
