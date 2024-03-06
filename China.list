@@ -2,23 +2,7 @@
 
 DOMAIN-KEYWORD,Authy
 DOMAIN-SUFFIX,Authy.com
-DOMAIN-SUFFIX,lcdn.ynuf.aliapp.org
 DOMAIN-SUFFIX,aliapp.org
-DOMAIN-KEYWORD,uTorrent
-DOMAIN-KEYWORD,aria2
-DOMAIN-KEYWORD,DownloadService
-DOMAIN-KEYWORD,Folx
-DOMAIN-KEYWORD,Transmission
-DOMAIN-KEYWORD,WebTorrent Helper
-DOMAIN-KEYWORD,WebTorrent
-DOMAIN-KEYWORD,BitComet
-DOMAIN-KEYWORD,alicdn
-DOMAIN-KEYWORD,alipay
-DOMAIN-KEYWORD,taobao
-DOMAIN-SUFFIX,BitComet
-DOMAIN-SUFFIX,discfan.net
-DOMAIN-KEYWORD,bittorrent
-DOMAIN-KEYWORD,qbittorrent
 DOMAIN-SUFFIX,acl4.ssr
 DOMAIN-SUFFIX,weibo.cn
 DOMAIN,livew.l.qq.com
@@ -52,7 +36,6 @@ DOMAIN-SUFFIX,doordu.sobot.com
 DOMAIN-SUFFIX,zhidao.3533.com
 DOMAIN-SUFFIX,leisu.com
 DOMAIN-SUFFIX,gzonline.gov.cn
-DOMAIN-SUFFIX,i.jzj9999.com
 DOMAIN-SUFFIX,jzj9999.com
 DOMAIN-SUFFIX,kingdee.com
 DOMAIN-SUFFIX,jin10.com
@@ -66,11 +49,9 @@ DOMAIN-SUFFIX,kfw.com
 DOMAIN-SUFFIX,kgimg.com
 DOMAIN-SUFFIX,95516.com
 DOMAIN-SUFFIX,oss.eple1.top
-DOMAIN-SUFFIX,cn
-DOMAIN-KEYWORD,-cn
+DOMAIN-SUFFIX,.cn
 DOMAIN-SUFFIX,ksepton.com
 DOMAIN-SUFFIX,dxmqtt.doordu.com
-DOMAIN-SUFFIX,authy.com
 DOMAIN-SUFFIX,ip138.com
 DOMAIN-SUFFIX,ipchaxun.net
 DOMAIN-SUFFIX,gd95105888.com
@@ -125,8 +106,24 @@ DOMAIN-SUFFIX,dragonfly.fun
 DOMAIN-SUFFIX,yowindow.ru
 DOMAIN-SUFFIX,yowindow.com
 DOMAIN-SUFFIX,yhzb9999.com
-#- DOMAIN-SUFFIX,
-#- DOMAIN-SUFFIX,
+DOMAIN-SUFFIX,daxiaamu.com
+DOMAIN,minipay.gdwxyf.com
+DOMAIN-SUFFIX,gdwxyf.com
+DOMAIN-SUFFIX,51pos.com
+DOMAIN-SUFFIX,sf-pay.com
+DOMAIN-SUFFIX,118pan.com
+DOMAIN-SUFFIX,kejishou.com
+DOMAIN-SUFFIX,rzurl.com
+DOMAIN,ed9a3d8.vvpgwg.xyz
+DOMAIN-SUFFIX,downpp.com
+DOMAIN-SUFFIX,fly2cn.top
+DOMAIN-SUFFIX,ipshudi.com
+DOMAIN-SUFFIX,rdnsdb.com
+DOMAIN-SUFFIX,leyaoyao.com
+DOMAIN-SUFFIX,wnflb2023.com
+DOMAIN-SUFFIX,zybwhsb.com
+DOMAIN-SUFFIX,qiyuesuo.com
+  #- DOMAIN-SUFFIX,
   
 DOMAIN-SUFFIX,getui.com
 DOMAIN-SUFFIX,pauyun.gd.cn
@@ -136,7 +133,6 @@ DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
 DOMAIN,tracking.miui.com
 DOMAIN,bdtj.tagtic.cn
-DOMAIN-KEYWORD,jd
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,baidubcr.com
 DOMAIN-SUFFIX,baidupcs.com
@@ -145,10 +141,11 @@ DOMAIN-KEYWORD,baidu
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,jdcloud.com
 DOMAIN-SUFFIX,jdpay.com
-DOMAIN-KEYWORD,jdpay
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,taobaocdn.com
 DOMAIN-KEYWORD,taobao
+DOMAIN-KEYWORD,jd
+DOMAIN-KEYWORD,jdpay
 DOMAIN-SUFFIX,tbcdn.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-KEYWORD,tmall.com
@@ -167,7 +164,6 @@ DOMAIN-KEYWORD,duolingo
 DOMAIN-KEYWORD,moke
 DOMAIN-KEYWORD,qhimg
 DOMAIN-KEYWORD,vpimg
-DOMAIN-KEYWORD,xiami
 DOMAIN-SUFFIX,360.com
 DOMAIN-SUFFIX,360kuai.com
 DOMAIN-SUFFIX,360safe.com
@@ -202,6 +198,7 @@ DOMAIN-SUFFIX,soku.com
 DOMAIN-SUFFIX,ucweb.com
 DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,xiami.net
+DOMAIN-KEYWORD,xiami
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,bdimg.com
@@ -286,9 +283,6 @@ DOMAIN-SUFFIX,qy.net
 DOMAIN-SUFFIX,360buy.com
 DOMAIN-SUFFIX,360buyimg.com
 DOMAIN-SUFFIX,jcloudcs.com
-DOMAIN-SUFFIX,中国
-DOMAIN-SUFFIX,公司
-DOMAIN-KEYWORD,-cn
 DOMAIN-SUFFIX,paipai.com
 DOMAIN-SUFFIX,iciba.com
 DOMAIN-SUFFIX,ksosoft.com
@@ -3836,6 +3830,23 @@ DOMAIN-SUFFIX,zuoyebang.com
 DOMAIN-SUFFIX,zybang.com
 DOMAIN-SUFFIX,zyh365.com
 DOMAIN-SUFFIX,zzdtec.com
+DOMAIN-KEYWORD,uTorrent
+DOMAIN-KEYWORD,aria2
+DOMAIN-KEYWORD,DownloadService
+DOMAIN-KEYWORD,Folx
+DOMAIN-KEYWORD,Transmission
+DOMAIN-KEYWORD,WebTorrent Helper
+DOMAIN-KEYWORD,WebTorrent
+DOMAIN-KEYWORD,BitComet
+DOMAIN-KEYWORD,alicdn
+DOMAIN-KEYWORD,alipay
+DOMAIN-KEYWORD,taobao
+DOMAIN-SUFFIX,BitComet
+DOMAIN-SUFFIX,discfan.net
+DOMAIN-KEYWORD,bittorrent
+DOMAIN-KEYWORD,qbittorrent
+DOMAIN-KEYWORD,-cn
+DOMAIN-KEYWORD,.cn
 
 PROCESS-NAME,hysteria
 PROCESS-NAME,hysteria.exe
@@ -3915,6 +3926,7 @@ PROCESS-NAME,xdm
 PROCESS-NAME,xdm.exe
 PROCESS-NAME,xdman
 PROCESS-NAME,xdman.exe
+  
 IP-CIDR,1.255.62.0/24,no-resolve
 IP-CIDR,101.32.118.0/23,no-resolve
 IP-CIDR,101.32.96.0/20,no-resolve
